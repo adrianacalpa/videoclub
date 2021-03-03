@@ -21,7 +21,7 @@
             <p>
                 @if($pelicula->rented === true)
                     <strong>Estado: </strong> Película actualmente alquilada.<br><br>
-                    <a type="button" class="btn btn-danger">Devolver Película</a>
+                    <a type="button" class="btn btn-danger">Devolver Película !!!</a>
                 @else
                     <strong>Estado: </strong> Película disponible.<br><br>
                     <a type="button" class="btn btn-info">Alquilar Película</a>
@@ -29,7 +29,7 @@
                 <a href="{{url('/catalog/edit/'.$pelicula->id)}}" type="button" class="btn btn-warning" ><i class="fas fa-pencil-alt"></i>Editar Película</a>
                 {{--<a href="{{url('/catalog')}}"type="button" class="btn btn-outline-dark"><i class="fas fa-angle-left"></i>Volver al listado</a>--}}
                 <a href="{{ url('/catalog') }}" type="button" class="btn btn-outline-dark">
-                    <i class="fas fa-angle-left"></i> Volver al listado
+                    <i class="fas fa-angle-left"></i> Volver
                 </a>
             </p>
             
