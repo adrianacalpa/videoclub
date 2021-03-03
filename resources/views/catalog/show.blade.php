@@ -4,7 +4,7 @@
     <div class="row">       
 
         <div class="col-sm-4" align="center">           
-            {{-- TODO: Imagen de la película --}}  
+            {{-- TODO: Imagen de la películaaaaaaaaaaaaa --}}  
             <img src="{{$pelicula->poster}}" style="height:350px"/>    
         </div>      
 
